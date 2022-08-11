@@ -1,18 +1,22 @@
 {
-  "name": "demo_nodejs",
-  "version": "1.0.0",
-  "description": "demo nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "create project"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1"
-  }
+    "name": "demo_nodejs",
+    "version": "1.0.0",
+    "description": "demo nodejs",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "create project"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
 }
